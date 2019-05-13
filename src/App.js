@@ -1,11 +1,15 @@
 import React from 'react';
-// import logo from './logo.svg';
+import Todo from './todo.js';
+import Doing from './doing.js';
+import Done from './done.js';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      Hello
+      <Todo />
+      <Doing />
+      <Done />
     </div>
   );
 }
