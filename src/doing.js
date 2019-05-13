@@ -1,32 +1,22 @@
 import React from 'react';
-import TodoItem from './todo_item.js';
+// import DoingItem from './doing_item.js';
 
 
 class Doing extends React.Component {
   constructor(props) {
     super(props);
     this.state  = {
-
+      doings: [this.props.doing]
      }
   }
 
 
     render() {
-    //   let doings = (this.state.doings).map((doing,i) => {
-    //   return (
-    //     <TodoItem
-    //       key={i}
-    //       todo={doing}
-    //       right={"yes"}
-    //       left={"yes"}
-    //     />
-    //   );
-    // });
+
 
       return (
         <div>
           <h1>Doing</h1>
-
         </div>
       )
     }
