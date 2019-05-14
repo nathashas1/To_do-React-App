@@ -29,13 +29,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@babel/core": "^7.4.4",
-    "@babel/preset-env": "^7.4.4",
-    "babel-loader": "^8.0.6",
-    "eslint": "^5.16.0",
-    "eslint-loader": "^2.1.2",
-    "webpack": "^4.31.0"
   }
 }

@@ -16,7 +16,6 @@ class TodoItem extends React.Component {
     console.log("side",side,todo)
     if (this.props.container === "todo") {
       this.setState({doing: todo})
-
     }
   }
 
@@ -30,9 +29,7 @@ render(){
       <img className="imageIcon" src={leftBtn} alt="" onClick={() => this.handleClick("left",this.props.todo)}/>
       <div>{this.props.todo}</div>
       <img className="imageIcon" src={rightBtn} alt="" onClick={() => this.handleClick("right",this.props.todo)}/>
-      <Doing
-        doing={this.state.doing}
-      />
+
     </div>
   )
 }
